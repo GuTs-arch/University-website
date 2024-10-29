@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <section class="header2">
+
+
+        <nav>
+            <a href="index.html"><img src="img/IMG_1016.PNG" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="bi bi-x-lg" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+
+
+        <div class="text-box">
+            <h2>About Us</h2>
+        </div>
+    </section>
+
+    <section class="box">
+        <div class="row">
+            <div class="box-col">
+                <h2>We are the World's Most Popular<br> University</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ratione esse itaque, quibusdam sint
+                    voluptas rem laudantium doloribus accusantium at fuga amet corrupti possimus? Voluptatem provident
+                    dolorem eum porro in ab maxime nesciunt dolores, praesentium debitis doloribus eveniet expedita
+                    voluptate aliquam culpa ipsum, reprehenderit fuga aspernatur. Nihil cupiditate, perferendis, earum
+                    nobis, maxime officia enim doloribus pariatur placeat reiciendis ullam laudantium!
+                </p>
+                <a href="" class="btn2">EXPLORE NOW</a>
+            </div>
+            
+            <div class="box-col">
+                <img src="img/lecturers.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim doloremque voluptate odio ex sit mollitia
+            ipsum officiis optio iure nemo.<br> Quod enim recusandae quisquam facere? Provident
+            nemo!
+        </p>
+
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+
+        <p>made with <i class="bi bi-heart"></i> by stephen<span>Codex</span></p>
+    </section>
+
+
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
